@@ -9,7 +9,15 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "gray-p-100":'#F5F5F5'
+      },
+      fontFamily:{
+        "peyda-noraml":"peyda-noraml",
+        "peyda-bold":"peyda-bold"
+      }
+    },
   },
   plugins: [],
 }
