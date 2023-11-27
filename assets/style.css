@@ -14,3 +14,33 @@ body{
     direction: rtl;
     color: white;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: linear-gradient(to bottom, #FFA07A, #FF6347); */
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C59D5F;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C59D5F;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

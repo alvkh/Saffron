@@ -1,0 +1,63 @@
+<template>
+    <div class="w-full bg-[#0E1317]">
+      <div class="lg:w-[75%] flex-col lg:flex-row lg:px-0 px-4 items-center lg:items-start justify-between mx-auto flex  py-12 gap-10">
+        <div class="flex flex-col  gap-7">
+          <img class="w-[100px] lg:self-start self-center img-fade" src="../assets/img/slide0.png" alt="">
+          <p class="text-[16px] font-peyda-bold text-[#9AA3A7]"> تالار سرخ معتبر ترین مرجع خرید و فروش زعفران در ایران</p>
+          <div class="flex gap-2 items-center lg:self-start self-center">
+            <img src="../assets/img/Rectangle1.svg" alt="">
+            <img src="../assets/img/Rectangle2.svg" alt="">
+            <img src="../assets/img/Rectangle3.svg" alt="">
+            <img src="../assets/img/Rectangle4.svg" alt="">
+          </div>
+        </div>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-[26px] font-peyda-bold text-white">لینکهای مفید</h2>
+          <div class="flex flex-col gap-4 text-[18px] items-center lg:items-start font-peyda-bold  text-[#9AA3A7]">
+            <h3>درباره ما</h3>
+            <h3>وبلاگ</h3>
+            <h3>خرید</h3>
+            <h3>تماس با ما </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4">
+            <h2 class="text-[26px] font-peyda-bold lg:text-start text-center text-white">راه های ارتباطی</h2>
+            <div class="flex flex-col gap-4 text-[18px] font-peyda-bold  text-[#9AA3A7]">
+              <div class="flex gap-2 items-center">
+                <div class=" w-12 h-12 rounded-full justify-center items-center flex bg-[#C59D5F]">
+                   <svgs-call></svgs-call>
+                </div>
+                <h2 class="text-[16px] font-peyda-bold text-[#9AA3A7]">099-999-9999</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <div class=" w-12 h-12 rounded-full justify-center items-center flex bg-[#C59D5F]">
+                   <svgs-location></svgs-location>
+                </div>
+                <h2 class="text-[16px] font-peyda-bold text-[#9AA3A7]">ادرس : مشهد بلوار معلم</h2>
+              </div>
+              <div class="flex gap-2 items-center">
+                <div class=" w-12 h-12 rounded-full justify-center items-center flex bg-[#C59D5F]">
+                   <svgs-mail></svgs-mail>
+                </div>
+                <h2 class="text-[16px] font-peyda-bold text-[#9AA3A7]">info@luxsaffron.ir</h2>
+              </div>
+              
+            </div>
+          </div>
+      </div>
+    </div>
+</template>
+<style>
+.img-fade{
+-webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 70%);
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 70%);
+  display: block;
+  margin: 0;
+}
+.img-fadebanner{
+  -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 90%);
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 90%);
+  display: block;
+
+}
+</style>

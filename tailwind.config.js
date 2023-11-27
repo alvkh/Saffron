@@ -16,6 +16,10 @@ export default {
       fontFamily:{
         "peyda-noraml":"peyda-noraml",
         "peyda-bold":"peyda-bold"
+      },
+      backgroundImage: {
+        'hero-pattern': "url('../assets/img/blog/login.png')",
+        
       }
     },
   },
