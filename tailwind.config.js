@@ -19,7 +19,7 @@ export default {
       },
       backgroundImage: {
         'hero-pattern': "url('../assets/img/blog/login.png')",
-        
+        'contactus': "url('../assets/img/contactus/contactus.png')",
       }
     },
   },

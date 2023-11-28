@@ -33,31 +33,31 @@
             <items>
               <img class="w-[50%] h-[120px] img-fade" src="../assets/img/slide2.png" alt="">
               <h2 class="text-[22px] font-peyda-bold ">مشخصات زعفران زراعی</h2>
-              <p class="text-[14px] font-peyda-noraml text-center lg:text-justify  ">زعفران مزروعی مانند زعفران های زینتی گیاهی است علفی، دائمی و دارای ساقههای زیر زمینی یا بنه میباشد که در بین کشاورزان به پیاز زعفران مشهور است. پوشش روی بنه از نوع الیاف طولی موازی به رنگ قهوه ای است ... </p>
+              <p class="text-[14px] h-[170px] font-peyda-noraml text-center lg:text-justify  ">زعفران مزروعی مانند زعفران های زینتی گیاهی است علفی، دائمی و دارای ساقههای زیر زمینی یا بنه میباشد که در بین کشاورزان به پیاز زعفران مشهور است. پوشش روی بنه از نوع الیاف طولی موازی به رنگ قهوه ای است ... </p>
               <nuxt-link to="blog/1" class="underline-offset-[10px] underline"> اطلاع بیشتر</nuxt-link>
             </items>
             <items>
               <img class="w-[50%] h-[120px] img-fade" src="../assets/img/slide4.png" alt="">
               <h2 class="text-[22px] font-peyda-bold ">موارد مصرف زعفران</h2>
-              <p class="text-[14px] font-peyda-noraml text-center lg:text-justify "> موارد استفاده از زعفران در جهان بسیار متعدد است و به سبب رنگ زیبا، عطر و طعم دلپذیر و خواص دارویی که دارد، کاربردهای عمده زیر را می توان برای آن برشمرد</p>
+              <p class="text-[14px] h-[170px] font-peyda-noraml text-center lg:text-justify "> موارد استفاده از زعفران در جهان بسیار متعدد است و به سبب رنگ زیبا، عطر و طعم دلپذیر و خواص دارویی که دارد، کاربردهای عمده زیر را می توان برای آن برشمرد</p>
               <nuxt-link to="blog/2" class="underline-offset-[10px] underline"> اطلاع بیشتر</nuxt-link>
             </items>
             <items>
               <img class="w-[50%] h-[120px] img-fade" src="../assets/img/slide3.png" alt="">
               <h2 class="text-[22px] font-peyda-bold ">نگه داری زعفران</h2>
-              <p class="text-[14px] font-peyda-noraml text-center lg:text-justify "> زعفران را باید در یک محیطی که خشک و تاریک است و از آب و هوایی خنک و مرطوب برخوردار است نگه داری کنید و هرگز آنرا در مقابل تابش مستقیم نور خورشید قرار ندهید چراکه موجب کاهش رنگ زعفران می شود ...</p>
+              <p class="text-[14px] h-[170px] font-peyda-noraml text-center lg:text-justify "> زعفران را باید در یک محیطی که خشک و تاریک است و از آب و هوایی خنک و مرطوب برخوردار است نگه داری کنید و هرگز آنرا در مقابل تابش مستقیم نور خورشید قرار ندهید چراکه موجب کاهش رنگ زعفران می شود ...</p>
               <nuxt-link to="blog/3" class="underline-offset-[10px] underline"> اطلاع بیشتر</nuxt-link>
             </items>
             <items>
               <img class="w-[50%] h-[120px] img-fade" src="../assets/img/slide5.png" alt="">
               <h2 class="text-[22px] font-peyda-bold ">درگاه معاملات بررسی زعفران</h2>
-              <p class="text-[14px] font-peyda-noraml text-center lg:text-justify "> لورم اپیسوم یک متن ساختگی است لورم اپیسوم یک متن ساختگی است لورم اپیسوم یک متن ساختگی است لورم اپیسوم یک متن ساختگی است لورم اپیسوم یک متن ساختگی است</p>
+              <p class="text-[14px] h-[170px] font-peyda-noraml text-center lg:text-justify "> لورم اپیسوم یک متن ساختگی است لورم اپیسوم یک متن ساختگی است لورم اپیسوم یک متن ساختگی است لورم اپیسوم یک متن ساختگی است لورم اپیسوم یک متن ساختگی است</p>
               <nuxt-link to="blog/4" class="underline-offset-[10px] underline" > اطلاع بیشتر</nuxt-link>
             </items>
           </div>
         </div>
         <div class="flex lg:flex-row flex-col mx-auto justify-center w-full gap-2 ">
-          <div class="flex flex-col justify-center py-[100px] lg:items-start items-center lg:w-[15%] gap-4 ">
+          <!-- <div class="flex flex-col justify-center py-[100px] lg:items-start items-center lg:w-[15%] gap-4 ">
             <h2 class="text-[20px] font-peyda-bold border-b-2 w-fit border-[#C59D5F] pb-2 text-[#C59D5F] ">
               معرفی اعضا
             </h2>
@@ -72,7 +72,7 @@
               <img class="w-10 rounded-full" src="../assets/img/sadegh.jpg" alt="">
               <h2 class="text-[18px] font-peyda-bold">صادق ملول</h2>
             </div>
-          </div>
+          </div> -->
           <img class="lg:w-[60%] w-full img-fadebanner " src="../assets/img/banner.png" alt="">
           <div class="flex flex-col w-full py-[100px] justify-center gap-4 items-center lg:items-start lg:w-[15%]">
             <h2 class="text-[20px] font-peyda-bold border-b-2 border-[#C59D5F] pb-2  text-[#C59D5F] ">
@@ -100,14 +100,14 @@
                   <img class="w-[120px] img-fade" src="../assets/img/card1.png" alt="">
                   <h2 class="text-[15px] font-peyda-bold text-[#C59D5F]">زعفران نگین</h2>
                 </div>
-                <p class="text-[12px] text-center lg:text-start lg:text-[14px] font-peyda-noraml">زعفران مرغوب اصیل ایرانی مناسب هر مزاج برای بهبمود عملکرد عصبی و حال بهتر</p>
+                <p class="text-[12px] text-center lg:text-start lg:text-[14px] font-peyda-noraml">این مدل زعفران دارای کلاله بدون خامه مادگی گیاه میباشد، دارای کلاله پهن ، بدون رگهای سیاه ...</p>
               </black-card>
               <black-card>
                 <div class="flex lg:flex-row flex-col items-center gap-6">
                 <img  class="w-[120px] img-fade" src="../assets/img/card2.png" alt="">
                   <h2 class="text-[15px] whitespace-nowrap font-peyda-bold text-[#C59D5F]">زعفران پوشال </h2>
                 </div>
-                <p class="text-[12px] text-center lg:text-start lg:text-[14px]  font-peyda-noraml" >زعفران مرغوب اصیل ایرانی مناسب هر مزاج برای بهبمود عملکرد عصبی و حال بهتر</p>
+                <p class="text-[12px] text-center lg:text-start lg:text-[14px]  font-peyda-noraml" >این مدل زعفران دارای کلاله همراه با قسمتی از خامه مادگی گیاه زعفران 2 میلیمتر خامه میباشد ... </p>
               </black-card> 
             </div>
 
@@ -170,22 +170,34 @@ background: #C59D5F;
 }
 </style>
 <script setup>
-import {ref,onMounted} from 'vue'
+import {ref,onMounted,onUpdated,onUnmounted} from 'vue'
 var i = ref(0);
-var txt = ref('تالار سرخ ارائه دهنده سرویس ها و خدمات زعفران')
+var txt = ref('طلای سرخ مهستان ارائه دهنده با کیفیت ترین زعفران ایران')
 var speed = ref(60);
+var intervaltest = ""
 
-onMounted(()=>{
-  function typeWriter() {
-    var ntext = txt.value
-    i.value = 0;
+onUnmounted(() => {
+  try {
+    clearInterval(intervaltest)
     document.getElementById("typing").innerHTML=""
-    var intervaltype = setInterval(() => {
-      document.getElementById("typing").innerHTML += ntext.charAt(i.value);
-      i.value++;
-      if(i.value >= ntext.length){
-        clearInterval(intervaltype);
-      }
+  } catch {
+  }
+}),
+onMounted(()=>{
+  
+  function typeWriter() {
+    try {
+      document.getElementById("typing").innerHTML=""
+      clearInterval( intervaltest);
+    } catch {}
+    var ntext = txt.value;
+    i.value = 0;
+    intervaltest = setInterval(() => {
+    document.getElementById("typing").innerHTML += ntext.charAt(i.value);
+    i.value++;
+    if(i.value >= ntext.length){
+      clearInterval(intervaltest);
+    }
     }, speed.value);
 }
 typeWriter()

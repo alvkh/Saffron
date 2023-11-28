@@ -1,5 +1,5 @@
 <template>
-    <li class="flex gap-4 items-center">
+    <li class="flex gap-4 items-center lg:justify-start justify-between">
         <img class="img-fade order-2 w-32" :src="imgsrc" >
         <div class="flex flex-col order-1 h-full py-4 justify-between">
             <div class="flex gap-2 items-center">

@@ -6,10 +6,10 @@
         <div class="bg-gradient-to-b from-transparent to-[#181D23] absolute w-full h-full left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"></div>
         </div>
         <div class="flex gap-24  px-10  w-full z-10 -mt-[450px] mx-auto py-16 items-center">
-            <img class="mx-auto img-fadebanner self-center w-[30%] " :src="imgsrc" alt="">
+            <img class="mx-auto img-fade self-center w-[30%] " :src="imgsrc" alt="">
             <div class="flex flex-col gap-2 items-start">
                 <h2  class="text-[#C59D5F] font-peyda-bold text-[28px] text-center">{{ json[id].title }}</h2>
-            <p  class="text-[16px] font-peyda-noraml ">
+            <p class="text-[16px] font-peyda-noraml ">
              {{ json[id].text }} 
             </p>
             </div>
