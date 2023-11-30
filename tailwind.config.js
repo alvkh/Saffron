@@ -18,8 +18,8 @@ export default {
         "peyda-bold":"peyda-bold"
       },
       backgroundImage: {
-        'hero-pattern': "url('../assets/img/blog/login.png')",
-        'contactus': "url('../assets/img/contactus/contactus.png')",
+        'hero-pattern': "url('../assets/img/blog/login.webp')",
+        'contactus': "url('../assets/img/contactus/contactus.webp')",
       }
     },
   },

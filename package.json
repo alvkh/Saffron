@@ -21,9 +21,11 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
     "@splidejs/splide": "^4.1.4",
     "@splidejs/vue-splide": "^0.6.12",
     "aos": "^2.3.4",
+    "chart.js": "^4.4.0",
     "cross-env": "^7.0.3",
     "pinia": "^2.1.7",
     "primeicons": "^6.0.1",

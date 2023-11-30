@@ -1,7 +1,7 @@
 <template>
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col justify-center items-center gap-4">
         <!-- <slot name="img"></slot> -->
-        <img class="rounded-lg border border-[#C59D5F]" :src="imgsrc" />
+        <img class="rounded-lg border w-[85%] border-[#C59D5F]" :src="imgsrc" />
         <div class="flex flex-col gap-2 self-center w-[85%]">
             <h3 class="text-[15px] font-peyda-bold text-[#9AA3A7]">{{sent}}</h3>
             <h2 class="lg:text-[26px] text-[16px]  font-peyda-bold ">{{text}}</h2>

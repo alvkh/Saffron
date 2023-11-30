@@ -1,7 +1,7 @@
 <template>
     <li class="flex gap-4 items-center lg:justify-start justify-between">
         <img class="img-fade order-2 w-32" :src="imgsrc" >
-        <div class="flex flex-col order-1 h-full py-4 justify-between">
+        <div class="flex flex-col order-1 lg:gap-0 gap-6 lg:py-4 justify-between">
             <div class="flex gap-2 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none">
             <path d="M16.75 3.55976V1.99976C16.75 1.58976 16.41 1.24976 16 1.24976C15.59 1.24976 15.25 1.58976 15.25 1.99976V3.49976H8.74999V1.99976C8.74999 1.58976 8.40999 1.24976 7.99999 1.24976C7.58999 1.24976 7.24999 1.58976 7.24999 1.99976V3.55976C4.54999 3.80976 3.23999 5.41976 3.03999 7.80976C3.01999 8.09976 3.25999 8.33976 3.53999 8.33976H20.46C20.75 8.33976 20.99 8.08976 20.96 7.80976C20.76 5.41976 19.45 3.80976 16.75 3.55976Z" fill="#C59D5F"/>

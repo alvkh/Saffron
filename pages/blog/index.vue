@@ -3,7 +3,7 @@
         <navbar></navbar>
         <div class="bg-[#181D23] flex flex-col lg:flex-row ">
           <div class="flex lg:flex-row flex-col lg:w-[85%] gap-4 lg:gap-16 mx-auto py-10">
-            <div class="grid order-2 grid-cols-2 gap-7 p-4 lg:p-0 lg:w-[75%]">
+            <div class="grid order-2 lg:grid-cols-3 gap-1 gap-y-6 lg:gap-7 p-4 lg:p-0 lg:w-[75%]">
              <Blogitems :imgsrc="img1" link="/blog/1" :text="json[1].title">
               </Blogitems>
               <Blogitems :imgsrc="img2" link="/blog/2" :text="json[2].title">
@@ -11,6 +11,10 @@
               <Blogitems :imgsrc="img3" link="/blog/3" :text="json[3].title">
               </Blogitems>
               <Blogitems :imgsrc="img4" link="/blog/4" :text="json[4].title">
+              </Blogitems>
+              <Blogitems :imgsrc="img5" link="/blog/4" :text="json[4].title">
+              </Blogitems>
+              <Blogitems :imgsrc="img6" link="/blog/4" :text="json[4].title">
               </Blogitems>
             </div>
           <div class="flex order-1 flex-col lg:w-[25%] p-4 lg:p-0 gap-10">
@@ -36,15 +40,13 @@
                           <h2 class="text-[20px] font-peyda-bold py-2 border-b-[3px] border-[#C59D5F] lg:w-fit">پستهای اخیر</h2>
               
               <ul class="flex flex-col gap-4 ">
-                <Pastpost imgsrc="/_nuxt/assets/img/blog/1.png">
+                <Pastpost :imgsrc="img1">
 
                 </Pastpost>
-                <Pastpost imgsrc="/_nuxt/assets/img/blog/2.png">
+                <Pastpost :imgsrc="img3">
 
                 </Pastpost>
-                <Pastpost imgsrc="/_nuxt/assets/img/blog/3.png">
-
-                </Pastpost>
+                
               </ul>
             </div>
           </div>
@@ -53,13 +55,10 @@
                         <h2 class="text-[20px] font-peyda-bold py-2 border-b-[3px] border-[#C59D5F] lg:w-fit">پستهای اخیر</h2>
             
             <ul class="flex flex-col gap-4 ">
-              <Pastpost imgsrc="/_nuxt/assets/img/blog/1.png">
+              <Pastpost :imgsrc="img1">
 
               </Pastpost>
-              <Pastpost imgsrc="/_nuxt/assets/img/blog/2.png">
-
-              </Pastpost>
-              <Pastpost imgsrc="/_nuxt/assets/img/blog/3.png">
+              <Pastpost :imgsrc="img3">
 
               </Pastpost>
             </ul>
@@ -70,10 +69,12 @@
 </template>
 <script setup>
 import json from '../../json/blog.json'
-import img1 from '../../assets/img/blog/1.png'
-import img2 from '../../assets/img/blog/2.png'
-import img3 from '../../assets/img/blog/3.png'
-import img4 from '../../assets/img/blog/5.png'
+import img1 from '../../assets/img/blog/1.webp'
+import img2 from '../../assets/img/blog/2.webp'
+import img3 from '../../assets/img/blog/3.webp'
+import img4 from '../../assets/img/blog/5.webp'
+import img5 from '../../assets/img/blog/6.webp'
+import img6 from '../../assets/img/blog/7.webp'
 
 
 </script>

@@ -5,7 +5,7 @@ import Splide from '@splidejs/splide';
 import '@splidejs/splide/css';
 
 onMounted(()=>{
-    const option =new Splide(".splide",{
+    const option =new Splide("#splide1",{
         type : 'loop',
         direction:'rtl',
         arrows :false,
@@ -17,20 +17,20 @@ onMounted(()=>{
 </script>
 <template>
     <div class="flex items-center ">
-        <section class="splide" aria-label="Splide Basic HTML Example">
+        <section id="splide1" class="splide" aria-label="Splide Basic HTML Example">
           <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide div-img img-fade" >
-                        <img class="" src="../assets/img/slide0.png" alt="">
+                        <img class="" src="../assets/img/slide0.webp" alt="">
                     </li>
                     <li class="splide__slide div-img img-fade" >
-                        <img class="" src="../assets/img/slide1.png" alt="">
+                        <img class="" src="../assets/img/slide1.webp" alt="">
                     </li>
                     <li class="splide__slide div-img img-fade">
-                        <img src="../assets/img/slide2.png" alt="">
+                        <img src="../assets/img/slide2.webp" alt="">
                     </li>
                     <li class="splide__slide div-img img-fade">
-                        <img src="../assets/img/slide3.png" alt="">
+                        <img src="../assets/img/slide3.webp" alt="">
                     </li>
                 </ul>
           </div>

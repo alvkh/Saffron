@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col ">
         <navbar></navbar>
-        <div class="w-full h-screen bg-hero-pattern justify-center flex items-center bg-cover">
+        <div class="w-full h-screen bg-hero-pattern justify-center flex items-center bg-cover img-fadebanner">
             <div class="flex flex-col p-8 gap-4 lg:w-[50%] lg:gap-10 lg:h-[60%] opa-div justify-center rounded-xl z-10">
                 <h2 class="text-[24px] font-peyda-bold text-[#C59D5F] text-center">
                     ورود
@@ -19,6 +19,7 @@
                 <h2 class="font-peyda-bold text-center lg:text-[16px] text-[12px]"> حساب کاربری ندارید <nuxt-link to="/register/signin" class="px-2 font-peyda-bold text-[#C59D5F]"> ثبت نام </nuxt-link></h2>
             </div>
         </div>
+        <myfooter></myfooter>
     </div>
 </template>
 <style scoped>
@@ -35,5 +36,11 @@ filter: alpha(opacity = 40);*/
   mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 70%);
   display: block;
   margin: 0;
+}
+.img-fadebanner{
+  -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 90%);
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 0, rgba(0,0,0,0) 90%);
+  display: flex;
+
 }
 </style>
