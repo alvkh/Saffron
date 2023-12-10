@@ -31,16 +31,16 @@ onMounted(() => {
             <div class="splide__track">
                 <ul class="splide__list">
                     <li class="splide__slide ">
-                        <Saffroncard class="flex-col" style="width: 350px;">
+                        <partnercard class="flex-col p-4" style="width: 350px;">
                             <img class="w-[100px] h-[120px]" src="../assets/img/partners/arttizens.svg" alt="">
-                            <h2 class="text-[20px] font-peyda-bold text-[#C59D5F]">شرکت نرم افزاری آرتیزنس</h2>
-                        </Saffroncard>
+                            <h2 class="text-[20px] font-peyda-bold text-[#C59D5F] h-[40px]">شرکت نرم افزاری آرتیزنس</h2>
+                        </partnercard>
                     </li>
                     <li class="splide__slide ">
-                        <Saffroncard class="flex-col" style="width: 350px;">
-                            <img class="w-[100px] h-[120px]"  src="../assets/img/partners/golchekan.jfif" alt="">
-                            <h2 class="text-[20px] font-peyda-bold text-[#C59D5F]">گلچکان خراسان</h2>
-                        </Saffroncard>
+                        <partnercard class="flex-col p-4" style="width: 350px;">
+                            <img class="w-[100px] h-[120px] img-fadebanner"   src="../assets/img/partners/golchekan.jfif" alt="">
+                            <h2 class="text-[20px] font-peyda-bold text-[#C59D5F] h-[40px]">گلچکان خراسان</h2>
+                        </partnercard>
                     </li>
                     <!-- <li class="splide__slide ">
                         <Saffroncard class="flex-col" style="width: 350px;">

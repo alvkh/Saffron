@@ -1,5 +1,5 @@
 <template>
-<div class="w-[280px] relative h-[180px] p-4 bg-[#0E1317] rounded-lg img-fadebanner  borderline flex items-center gap-6">
+<div class="w-[280px] relative h-[180px] p-4 bg-[#0E1317] rounded-lg img-fadebanner   flex items-center gap-6">
     <img class="absolute opacity-10 top-[40px] -left-[55px] w-[100px] rotate-45" src="../assets/img/pattern.svg" alt="">
 
     <slot></slot>

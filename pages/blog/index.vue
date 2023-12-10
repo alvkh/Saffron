@@ -4,17 +4,17 @@
         <div class="bg-[#181D23] flex flex-col lg:flex-row ">
           <div class="flex lg:flex-row flex-col lg:w-[85%] gap-4 lg:gap-16 mx-auto py-10">
             <div class="grid order-2 lg:grid-cols-3 gap-1 gap-y-6 lg:gap-7 p-4 lg:p-0 lg:w-[75%]">
-             <Blogitems :imgsrc="img1" link="/blog/1" :text="json[1].title">
+             <Blogitems :imgsrc="img1" link="/blog/1" :text="json[1].title" :sent="json[1].sent">
               </Blogitems>
-              <Blogitems :imgsrc="img2" link="/blog/2" :text="json[2].title">
+              <Blogitems :imgsrc="img2" link="/blog/2" :text="json[2].title" :sent="json[2].sent">
               </Blogitems>
-              <Blogitems :imgsrc="img3" link="/blog/3" :text="json[3].title">
+              <Blogitems :imgsrc="img3" link="/blog/3" :text="json[3].title" :sent="json[3].sent">
               </Blogitems>
-              <Blogitems :imgsrc="img4" link="/blog/4" :text="json[4].title">
+              <Blogitems :imgsrc="img4" link="/blog/4" :text="json[4].title" :sent="json[4].sent">
               </Blogitems>
-              <Blogitems :imgsrc="img5" link="/blog/4" :text="json[4].title">
+              <Blogitems :imgsrc="img5" link="/blog/4" :text="json[4].title" :sent="json[4].sent">
               </Blogitems>
-              <Blogitems :imgsrc="img6" link="/blog/4" :text="json[4].title">
+              <Blogitems :imgsrc="img6" link="/blog/4" :text="json[4].title" :sent="json[4].sent">
               </Blogitems>
             </div>
           <div class="flex order-1 flex-col lg:w-[25%] p-4 lg:p-0 gap-10">

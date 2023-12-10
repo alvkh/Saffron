@@ -7,6 +7,7 @@
             <img class="w-[100px] lg:self-start self-center img-fade" src="../assets/img/slide0.webp" alt="">
           <a referrerpolicy='origin' target='_blank' href='https://trustseal.enamad.ir/?id=428313&Code=c3xZMM6aDW01TsCAC51YbNPjwxh6XB3R'><img id="imgenamad" class="w-[100px] lg:self-start self-center" referrerpolicy='origin' src='https://trustseal.enamad.ir/logo.aspx?id=428313&Code=c3xZMM6aDW01TsCAC51YbNPjwxh6XB3R' alt='' style='cursor:pointer' Code='c3xZMM6aDW01TsCAC51YbNPjwxh6XB3R'></a>
           </div>
+          <h2 class="font-peyda-bold about">سمبلی از ظرافت و اشرافیت</h2>
           <p class="text-[16px] font-peyda-bold lg:text-start text-center text-[#9AA3A7]"> تالار سرخ معتبر ترین مرجع خرید و فروش زعفران در ایران</p>
           <div class="flex gap-2 items-center lg:self-start self-center">
             <img src="../assets/img/Rectangle1.svg" alt="">

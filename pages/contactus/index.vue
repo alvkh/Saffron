@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-screen flex-col">
+    <div class="flex  flex-col">
         <navbar></navbar>
         <div class="flex items-center lg:justify-normal justify-center lg:p-8 bg-contactus bg-cover">
             <div class="flex flex-col lg:w-[40%] h-[670px] justify-center lg:justify-normal lg:h-[750px] gap-4 rounded-lg p-6 opa-div ">
@@ -17,7 +17,7 @@
                     <div class="flex flex-col gap-2 font-peyda-bold">
                     <textarea :rows="5" class="p-[6px] rounded-md outline-none resize-none placeholder:text-[#C59D5F]" type="text" placeholder="متن پیام"></textarea>
                     </div>
-<button class="bg-[#C59D5F] self-center lg:self-start font-peyda-bold text-[18px] shadow-sm shadow-[#C59D5F] p-2 px-8 rounded-xl text-[#181D23] w-fit my-10">ثبت</button> 
+                    <button class="bg-[#C59D5F] self-center lg:self-start font-peyda-bold text-[18px] shadow-sm shadow-[#C59D5F] p-2 px-8 rounded-xl text-[#181D23] w-fit my-10">ثبت</button> 
                 </form>
             </div>
         </div>

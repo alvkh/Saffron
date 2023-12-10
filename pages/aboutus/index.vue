@@ -3,7 +3,7 @@
         <navbar></navbar>
         <div class="flex lg:gap-10 gap-4 flex-col w-[75%] mx-auto py-8 lg:py-16">
             
-            <img class="mx-auto img-fadebanner self-center lg:w-[60%] " src="../../assets/img/about/aboutbanner.webp" alt="">
+            <img class="mx-auto img-fadebanner self-center lg:w-[60%] borderline " src="../../assets/img/about/aboutbanner.webp" alt="">
             
             <h2 class="text-[#C59D5F] font-peyda-bold text-[22px] lg:text-[28px] text-center">درباره ما</h2>
             <div class="flex flex-col lg:gap-0 gap-4 lg:flex-row justify-between items-center borderline py-5">
